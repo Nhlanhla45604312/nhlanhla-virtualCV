@@ -602,3 +602,68 @@ nav{
     font-size:15px;
 
 }
+/*Mobile Responsive */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 120px 25px 60px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero-image img {
+        width: 280px;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .skills-container,
+    .project-card,
+    .certificate-card {
+        flex-direction: column;
+    }
+
+    .project-card img,
+    .certificate-card img {
+        width: 100%;
+        max-width: 320px;
+        margin: auto;
+    }
+
+    section {
+        padding: 70px 20px;
+    }
+
+}
