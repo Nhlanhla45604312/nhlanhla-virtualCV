@@ -6,7 +6,7 @@
     box-sizing:border-box;
 }
 
-/* ===== BODY ===== */
+/*BODY */
 
 body{
     font-family:Arial, Helvetica, sans-serif;
@@ -90,7 +90,7 @@ nav{
     cursor:pointer;
 
 }
-/* ===== HERO SECTION ===== */
+/* HERO SECTION*/
 
 .hero{
     display:flex;
@@ -178,7 +178,7 @@ nav{
     line-height:1.8;
     color:#141414;
 }
-/* ===== EDUCATION ===== */
+/*EDUCATION*/
 
 .education{
     padding:100px 20px;
@@ -213,7 +213,7 @@ nav{
     font-style:italic;
     color:#9ca3af;
 }
-/* ===== SKILLS ===== */
+/*SKILLS */
 
 .skills{
     padding:100px 20px;
@@ -420,9 +420,7 @@ nav{
     background:#1d4ed8;
 
 }
-/*==========================
-      CERTIFICATIONS
-===========================*/
+/*CERTIFICATIONS*/
 
 .certifications{
 
@@ -536,9 +534,7 @@ nav{
 
 }
 
-/*==========================
-        CONTACT
-===========================*/
+/*CONTACT*/
 
 .contact{
 
@@ -691,7 +687,55 @@ padding:18px 25px;
 
 }
 
+ .hero{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        padding: 120px 25px 50px;
+        min-height: auto;
+    }
 
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+    }
+
+    .hero-text h2{
+        font-size: 28px;
+    }
+
+    .hero-text h3{
+        font-size: 22px;
+    }
+
+    .hero-text p{
+        font-size: 17px;
+    }
+
+    .hero-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .hero-image img{
+        width: 220px;
+        height: 220px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn{
+        width: 220px;
+        text-align: center;
+    }
 }
 #typing {
     color: #02040a;
